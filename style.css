@@ -1,0 +1,134 @@
+
+/*
+Theme Name: IA Web Theme 001
+Theme URI: https://wordpress.org/themes/iawebtheme001/
+Author: Ikes Web Design
+Author URI: #
+Description: IA Web Theme 001 basic design 01
+Version: 1.0
+Text Domain: twentyseventeen
+Tags: Simple, IA Web Development, Clean, 
+
+*/
+
+
+body {
+  background-color: #000;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+
+#wrapper {
+	width: 1000px;
+	background-color: #666;
+	border: 2px solid black;
+	margin-left: 150px;
+}
+#header {
+	padding-left: 20px;
+	height: 100px;
+	
+}
+
+#banner {
+	background-color: black;
+}
+	
+#navbar {
+	background-color: blue;
+	width: auto;
+	border: 3px solid black;
+	height: 40px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 100px;
+  width: auto;
+}
+
+#navbar li {
+  float: left;  
+}
+
+#navbar li a {
+  display: block;
+  padding: 8px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  /* background-color: #dddddd; */
+  background-image: url("http://radicalwebdevelopment.com/wp-content/themes/iawebtheme001/img/navbuttonbg.png");
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#navbar li a:hover {
+
+  /* background-color: #dddddd; */
+  background-image: url("http://radicalwebdevelopment.com/wp-content/themes/iawebtheme001/img/navbuttonbg2.png");
+]
+}
+
+
+#main_content {
+	background-color: #666;
+	border: 2px solid black;
+	overflow: hidden;
+}
+
+#leftcollumn {
+	width: 600px;
+	background-color: purple;
+	float: left;
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid black;
+	
+}
+
+#sidebar {
+	
+	padding: 10px;
+	margin: 10px;
+	float: right;
+	border: 2px solid black;
+}
+
+
+#footer {
+	clear: both;
+	height: 80px;
+	
+}
+	
+	
+	
+.titleText {
+	font-size: 30px;
+	font-weight: bolder;
+	text-decoration: underline;
+	
+}
+	
+.titleSubText {
+	font-size: 15px;
+	
+}
+
+
+	
+	
