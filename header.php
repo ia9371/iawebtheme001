@@ -23,13 +23,20 @@
 <body>
 <div id = "wrapper"> 
 <div id = "header">
-<p class = "titleText">
-<?php bloginfo( 'name' ) ; ?>
-</p><p class = "titleSubText">
-<?php bloginfo( 'description' ); ?>
-</p>
+<!-- this is the code that we want to work as logo -->
+<!-- <img src="<?php echo( get_header_image() ); ?>"> -->
+<img src = "http://radicalwebdevelopment.com/wp-content/themes/iawebtheme001/img/RWDlogo003.png" >
 
-</div> <!-- end site title -->
+<!--
+<p class = "titleText">
+<?php // bloginfo( 'name' ) ; ?>
+</p><p class = "titleSubText">
+<?php // bloginfo( 'description' ); ?>
+</p>
+-->
+
+
+</div> <!-- end site header -->
 
 <div id = "navbar"> <?php wp_nav_menu() ?> </div>
 <div id = "banner"> 

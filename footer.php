@@ -12,6 +12,10 @@
  */
 ?>
 <div id = "footer">
+<br />
+<center>Website Powered by Wordpress</center> 
+<center> Wordpress Theme by Radical Web Development </center>
+
 </div>
 
 </div><!-- #wrapper -->
